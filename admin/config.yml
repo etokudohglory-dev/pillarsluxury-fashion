@@ -1,0 +1,68 @@
+backend:
+  name: github
+  # TODO: replace with your actual GitHub repo path, e.g. janedoe/pillarsluxury-fashion
+  repo: YOUR-GITHUB-USERNAME/YOUR-REPO-NAME
+  branch: main
+
+# Where new photos uploaded through the admin panel are stored,
+# and the URL path the site uses to reference them.
+media_folder: "assets/images/outfits"
+public_folder: "/assets/images/outfits"
+
+collections:
+  - name: "outfits"
+    label: "Lookbook Outfits"
+    files:
+      - name: "outfits"
+        label: "Outfits"
+        description: "Add, edit or remove the pieces shown in the Lookbook section of the site."
+        file: "content/outfits.json"
+        fields:
+          - label: "Outfits"
+            name: "outfits"
+            widget: "list"
+            summary: "{{name}} — {{category}}"
+            fields:
+              - label: "ID (unique, no spaces — e.g. amara-gown)"
+                name: "id"
+                widget: "string"
+              - label: "Name"
+                name: "name"
+                widget: "string"
+              - label: "Lightbox Name (optional — only set this if the popup should show a different name than the card, e.g. for a specific colour)"
+                name: "lightboxName"
+                widget: "string"
+                required: false
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options: ["Ready-to-Wear", "Custom-Made", "Menswear"]
+              - label: "Price Range"
+                name: "price"
+                widget: "string"
+                default: "₦25,000 – ₦100,000"
+              - label: "Photo"
+                name: "image"
+                widget: "image"
+              - label: "Photo Alt Text (short description, for accessibility and search engines)"
+                name: "alt"
+                widget: "string"
+                required: false
+              - label: "Description (shown when the look is tapped)"
+                name: "description"
+                widget: "text"
+              - label: "Colour Variants (optional — only for a piece sold in more than one colour)"
+                name: "variants"
+                widget: "list"
+                required: false
+                fields:
+                  - label: "Colour Name"
+                    name: "name"
+                    widget: "string"
+                  - label: "Variant Photo"
+                    name: "image"
+                    widget: "image"
+                  - label: "Swatch Colour (hex code, e.g. #d98fae)"
+                    name: "color"
+                    widget: "string"
+                    default: "#cccccc"
