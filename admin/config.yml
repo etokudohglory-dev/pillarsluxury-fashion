@@ -1,7 +1,7 @@
 backend:
   name: github
   # TODO: replace with your actual GitHub repo path, e.g. janedoe/pillarsluxury-fashion
-  repo: etokudoglory-dev/pillarsluxury-fashion
+  repo: etokudohglory-dev/pillarsluxury-fashion
   branch: main
 
 # Where new photos uploaded through the admin panel are stored,
