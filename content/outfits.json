@@ -1,0 +1,100 @@
+{
+  "outfits": [
+    {
+      "id": "amara-gown",
+      "name": "The Amara Gown",
+      "category": "Custom-Made",
+      "price": "₦25,000 – ₦100,000",
+      "image": "assets/images/red_gown.jpg",
+      "alt": "Amara — red pleated cowl-neck evening gown",
+      "description": "A cowl-neck evening gown in pleated jacquard, built for a red-carpet moment. Made to your measurements."
+    },
+    {
+      "id": "petal-stripe-set",
+      "name": "Petal Stripe Set",
+      "lightboxName": "Petal Stripe Set — Pink",
+      "category": "Ready-to-Wear",
+      "price": "₦25,000 – ₦100,000",
+      "image": "assets/images/pink_suit.jpg",
+      "alt": "Petal Stripe co-ord set in pink",
+      "description": "A striped shirt-and-trouser co-ord with beaded collar and cuffs, in universal sizing. Also available in sky blue and mint.",
+      "variants": [
+        { "name": "Pink", "image": "assets/images/pink_suit.jpg", "color": "#d98fae" },
+        { "name": "Sky Blue", "image": "assets/images/blue_suit.jpg", "color": "#9db8d6" },
+        { "name": "Mint", "image": "assets/images/mint_suit.jpg", "color": "#a7cfc0" }
+      ]
+    },
+    {
+      "id": "boulevard-dress",
+      "name": "Boulevard Dress",
+      "category": "Ready-to-Wear",
+      "price": "₦25,000 – ₦100,000",
+      "image": "assets/images/purple_dress.jpg",
+      "alt": "Boulevard — purple striped shirt dress",
+      "description": "A striped shirt-dress with a fitted waistband, styled with our signature statement handbag."
+    },
+    {
+      "id": "rosette-tiers",
+      "name": "Rosette Tiers",
+      "category": "Custom-Made",
+      "price": "₦25,000 – ₦100,000",
+      "image": "assets/images/floral_gown.jpg",
+      "alt": "Rosette Tiers — red and pink floral halter gown",
+      "description": "A floral halter gown with a corseted bodice and dramatic pleated skirt, tailored to your measurements."
+    },
+    {
+      "id": "wild-bloom-maxi",
+      "name": "Wild Bloom Maxi",
+      "category": "Ready-to-Wear",
+      "price": "₦25,000 – ₦100,000",
+      "image": "assets/images/leopard_dress.jpg",
+      "alt": "Wild Bloom — tiered ruffle maxi dress",
+      "description": "A tiered, ruffled maxi dress finished with a rosette halter neckline."
+    },
+    {
+      "id": "scarlet-tailored-suit",
+      "name": "Scarlet Tailored Suit",
+      "category": "Custom-Made",
+      "price": "₦25,000 – ₦100,000",
+      "image": "assets/images/red_blazer.jpg",
+      "alt": "Scarlet — tailored blazer and wide-leg trouser suit",
+      "description": "A wide-leg trouser suit with a beaded sheer neckline, tailored piece by piece to your measurements."
+    },
+    {
+      "id": "meadow-mini",
+      "name": "Meadow Mini",
+      "category": "Ready-to-Wear",
+      "price": "₦25,000 – ₦100,000",
+      "image": "assets/images/green_polka.jpg",
+      "alt": "Meadow Mini — green polka dot puff sleeve dress",
+      "description": "A puff-sleeve polka dot mini dress with a smocked waist."
+    },
+    {
+      "id": "tropic-flare",
+      "name": "Tropic Flare",
+      "category": "Ready-to-Wear",
+      "price": "₦25,000 – ₦100,000",
+      "image": "assets/images/colorful_dress.jpg",
+      "alt": "Tropic Flare — printed puff sleeve mini dress",
+      "description": "A printed puff-sleeve mini dress with a smocked waist, in universal sizing."
+    },
+    {
+      "id": "ivory-wave-maxi",
+      "name": "Ivory Wave Maxi",
+      "category": "Ready-to-Wear",
+      "price": "₦25,000 – ₦100,000",
+      "image": "assets/images/white_maxi.jpg",
+      "alt": "Ivory Wave — knit maxi dress with bow pockets",
+      "description": "A textured knit maxi dress with bow-detail pockets and a side slit."
+    },
+    {
+      "id": "mens-edit",
+      "name": "The Men's Edit",
+      "category": "Menswear",
+      "price": "₦25,000 – ₦100,000",
+      "image": "assets/images/mens_blue.jpg",
+      "alt": "Men's short-sleeve embroidered shirt in sky blue",
+      "description": "Short-sleeve embroidered shirts styled with tailored trousers — available in multiple colourways."
+    }
+  ]
+}
